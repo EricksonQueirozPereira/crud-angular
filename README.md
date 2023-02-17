@@ -26,4 +26,4 @@ Execute `ng e2e` para executar os testes de ponta a ponta por meio de uma plataf
 
 Para obter mais ajuda sobre o Angular CLI, use `ng help` ou confira a página [Angular CLI Overview and Command Reference](https://angular.io/cli).
 
-dia 1
+
