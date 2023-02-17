@@ -6,9 +6,6 @@ Este projeto foi gerado com [Angular CLI](https://github.com/angular/angular-cli
 
 Execute 'ng serve' para um servidor de desenvolvimento. Navegue até 'http://localhost:4200/'. O aplicativo será recarregado automaticamente se você alterar qualquer um dos arquivos de origem.
 
-## Andaime de código
-
-Execute `ng generate component-name` para gerar um novo componente. Você também pode usar `ng generate directiva|pipe|service|class|guard|interface|enum|module`.
 
 ## Construir
 
