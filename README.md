@@ -6,9 +6,6 @@ Este projeto foi gerado com [Angular CLI](https://github.com/angular/angular-cli
 
 Execute 'ng serve' para um servidor de desenvolvimento. Navegue até 'http://localhost:4200/'. O aplicativo será recarregado automaticamente se você alterar qualquer um dos arquivos de origem.
 
-## Andaime de código
-
-Execute `ng generate component-name` para gerar um novo componente. Você também pode usar `ng generate directiva|pipe|service|class|guard|interface|enum|module`.
 
 ## Construir
 
@@ -26,4 +23,5 @@ Execute `ng e2e` para executar os testes de ponta a ponta por meio de uma plataf
 
 Para obter mais ajuda sobre o Angular CLI, use `ng help` ou confira a página [Angular CLI Overview and Command Reference](https://angular.io/cli).
 
-
+## Tornando sonhos realidade: Em busca de oportunidade para me tornar um desenvolvedor de destaque
+Estou em busca de uma oportunidade para realizar meu sonho pessoal de tornar-me um profissional de destaque na área de desenvolvimento. Convido você a me contratar como aprendiz em sua empresa, onde poderei contribuir com meu empenho e dedicação para aprender e crescer junto com a equipe.
