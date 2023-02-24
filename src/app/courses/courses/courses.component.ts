@@ -9,7 +9,7 @@ import { Component, OnInit } from '@angular/core';
 export class CoursesComponent implements OnInit {
 
 courses: Courses [] = [
-{ _id: '1', nome: 'AngularCrud', categoria: 'Front end Angular'}
+{ _id: '1', nome: 'Meu Primeiro Angular Crud', categoria: 'Front end Angular'}
 
 ];
 displayedColumns = ['nome', 'categoria']
