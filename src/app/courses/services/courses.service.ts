@@ -10,12 +10,13 @@ import { Injectable } from '@angular/core';
 })
 export class CoursesService {
 
-  constructor() { }
+  private readonly API = '/assets/courses.json'
 
-  list(): Courses[]{
-    return[
-      { _id: '1', nome: 'Meu Primeiro Angular Crud', categoria: 'Front end AngularSpring'}
-    ];
+  constructor(private httpClient: HttpClient ) { }
+
+
+  list(){
+    return this.httpClient.get<Courses[]>(this.API);
+
   }
-
 }
