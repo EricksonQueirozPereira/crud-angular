@@ -13,11 +13,11 @@ export class CoursesComponent implements OnInit {
 courses: Courses [] = [];
 displayedColumns = ['nome', 'categoria']
 
-coursesService: CoursesService;
 
-  constructor() {
+
+  constructor( private coursesService: CoursesService) {
    // pode ser feito o costrutor assim também this.courses = [];
-this.coursesService = new CoursesService();
+
  this.courses = this.coursesService.list();
 
   }
