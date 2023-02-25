@@ -11,7 +11,7 @@ import { Observable } from 'rxjs';
 })
 export class CoursesComponent implements OnInit {
 
-courses: Observable <Courses[]>;
+courses$: Observable <Courses[]>;
 displayedColumns = ['nome', 'categoria']
 
 
@@ -19,7 +19,7 @@ displayedColumns = ['nome', 'categoria']
   constructor( private coursesService: CoursesService) {
    // pode ser feito o costrutor assim também this.courses = [];
 
- this.courses = this.coursesService.list();
+ this.courses$ = this.coursesService.list();
 
   }
 

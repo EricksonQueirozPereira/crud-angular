@@ -5,8 +5,8 @@
     <span>Tabela de Cursos</span>
 
   </mat-toolbar>
-
-  <table mat-table [dataSource]="courses" class="mat-elevation-z8">
+<div *ngIf="courses$ | async as course; else loading">
+  <table mat-table [dataSource]="courses$" class="mat-elevation-z8">
 
     <!--  Coluna Nome -->
     <ng-container matColumnDef="nome">
@@ -23,6 +23,10 @@
     <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
     <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
   </table>
+</div>
+<ng-template #loading>
+
   <mat-spinner></mat-spinner>
+</ng-template>
 
 </mat-card>
