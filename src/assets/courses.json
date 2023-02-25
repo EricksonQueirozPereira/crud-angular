@@ -1,6 +1,7 @@
 [
-  { "_id": "1", "nome": "Meu Primeiro Angular Crud", "categoria": "Front end AngularSpring"},
-  { "_id": "2", "nome": "Angular ", "categoria": "AngularSpring"}
+  { "_id": "1", "nome": "Angular ", "categoria": "Fron-end"},
+  { "_id": "2", "nome": "SpringBoot ", "categoria": "Back-end"},
+  { "_id": "3", "nome": "AngularSpring", "categoria": "FullStack"}
 
 
 ]
